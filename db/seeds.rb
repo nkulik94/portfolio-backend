@@ -8,7 +8,8 @@ projects = [
         demo: "https://youtu.be/jksncUyl4JM|https://youtu.be/Cfq0JNiC3dE",
         link: "https://backward-jeopardy.herokuapp.com/",
         github: "https://github.com/nkulik94/trivia-game",
-        technologies: "Ruby on Rails|React.js|PostgreSQL|HTTP protocol|WebSockets protocol (Action Cable)"
+        technologies: "Ruby on Rails|React.js|PostgreSQL|HTTP protocol|WebSockets protocol (Action Cable)",
+        thumbnail: 'https://i.ibb.co/SyxCbgK/Screenshot-50.png'
     }
 ]
 

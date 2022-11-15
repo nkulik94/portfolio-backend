@@ -13,8 +13,18 @@ A trivia game app where players can compete for points
 
 ### Short Description
 
-An app where users can view and track free online games
+An app where users can view and review free online games
 
 ### Long description
 
 <p>Gamer Spot allows users access to a database of free online games (obtained from the <a href='https://www.freetogame.com/api-doc' style='color:#90caf9'>Freetogame API</a>) Users can view information such as likes, rating, and reviews for each game. Upon logging in or creating an account, users can like, rate, or review games and track those games.</p><p>This app uses a React frontend with a Rails API backend. A relational database is used to keep track of user and game information.</p>
+
+## Book Wyrms
+
+### Short Description
+
+An app for finding and tracking books, inspired by Goodreads
+
+### Long Description
+
+<p>Book Wyrms is an app with which users can search the Open Library database for books by title or author. Once a specific book is selected, additional information about the book can be viewed, including app-specific information such as ratings and reviews. A logged-in user can save books to a read shelf or a wish list, in addition to rating and reviewing books.</p><p>This is a frontend-only application which uses a mock json server API as a backend. The search function fetches results from the <a href='https://openlibrary.org/developers/api' style='color:#90caf9'>Open Library API</a>, however selecting a specific book will query the (mock) backend for that book, display it if it's found, or add it to the database and display the newly added book if not. This way the app's database only needs to contain books which have been viewed by users.</p>

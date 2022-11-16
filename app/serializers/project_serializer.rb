@@ -1,5 +1,5 @@
 class ProjectSerializer < ActiveModel::Serializer
-  attributes :id, :title, :short_description, :github, :link, :description, :embed_links, :technologies_list
+  attributes :id, :title, :short_description, :github, :link, :description, :embed_links, :technologies_list, :thumbnail
 
   def embed_links
     self.object.demo_embed_link.split('|')

@@ -18,7 +18,7 @@ projects = [
         link: "https://gamer-spot.herokuapp.com/",
         github: "https://github.com/nkulik94/game-center",
         technologies: "Ruby on Rails|React.js|PostgreSQL|HTTP|Material UI",
-        thumbnail: "https://i.ibb.co/vmYZ0zB/Screenshot-60.png",
+        thumbnail: "https://i.ibb.co/jyF1DKt/Screenshot-62.png",
         demo_embed_link: "https://www.youtube.com/embed/pTSwXxoF9aQ"
     },
     {
